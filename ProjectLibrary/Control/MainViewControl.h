@@ -6,8 +6,8 @@
 //  Copyright © 2016年 xuyong. All rights reserved.
 //
 
-#import "ViewController.h"
+//#import "ViewController.h"
 
-@interface MainViewControl : ViewController
+@interface MainViewControl : UIViewController
 
 @end
