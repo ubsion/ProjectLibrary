@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  ProjectLibrary
+//
+//  Created by xuyong on 16/11/4.
+//  Copyright © 2016年 xuyong. All rights reserved.
+//
+/*pch添加到项目中后， 在buliding settting 中  Apple LLVM - Langunage 中 Prefix Header 设置 ProjectLibrary/PrefixHeader.pch*/
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import "AppDelegate.h"
+
+//导入库相关头
+#import "LibraryHeader.h"
+//导入拓展类
+#import "CatagoryHeader.h"
+
+#endif /* PrefixHeader_pch */
