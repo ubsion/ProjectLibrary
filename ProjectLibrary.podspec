@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ProjectLibrary"
-  s.version      = "1.0.5"
+  s.version      = "1.0.7"
   s.summary      = "ProjectLibrary  developing tools"
 
   s.description  = <<-DESC
@@ -26,9 +26,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '7.0'
 
-  s.source       = { :git => "https://github.com/1273011249/ProjectLibrary.git", :tag => "1.0.5" }
+  s.source       = { :git => "https://github.com/1273011249/ProjectLibrary.git", :tag => "1.0.7" }
 
-  s.source_files  = "ProjectLibrary/Classes/*.{h,m}","ProjectLibrary/Classes/**/*.{h,m}"
+  s.source_files  = "ProjectLibrary/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "ProjectLibrary/Classes/*.h"
